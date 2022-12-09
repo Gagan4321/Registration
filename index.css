@@ -1,0 +1,50 @@
+body{
+    background-color:#C7BCA1;
+}
+.nav1{
+    padding: 20px;
+    background-color:#453C67;
+}
+.usern{
+    font-size:25px;
+    
+    padding: 40px;
+    padding-left:10px;
+    padding-bottom: 15px;
+}
+#uname{
+    background-color: #FFEBAD;
+    border-radius: 8px;
+    border:2px solid black;
+    color:black;
+    padding:10px 22px;
+    cursor:pointer;
+    
+}
+.userp{
+    font-size:25px; 
+    padding: 40px;
+    padding-left:10px;
+}
+#upass{
+    background-color: #FFEBAD;
+    border-radius: 8px;
+    border:2px solid black;
+    color:black;
+    padding:10px 22px;
+    cursor:pointer
+}
+#but1{
+    background-color: #6D67E4;
+    border:3px solid black;
+    font-size:20px;
+    padding:10px 60px;
+    border-radius: 7px;
+    cursor:pointer;
+   
+.ver{
+    padding-left:50px;
+    text-align: center;
+
+}
+}

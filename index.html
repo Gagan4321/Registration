@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>Authentication</title>
+        <link rel="stylesheet" href="index.css">
+
+    </head>
+    <body>
+        <nav class="nav1">
+            <h1>Authentication of Username and Password</h1>
+        </nav>
+        
+        <div class="usern"><label for="uname">Username</label>
+        <input type="text" id="uname" placeholder="Enter Username" >
+    </div>
+    
+    <div class="userp">
+        <label for="upass">Password </label>
+        <input type="text" id="upass" placeholder="Enter Password">
+    </div>
+    <div class="ver">
+        <input type="button" id="but1" value="Verify" onclick="verify()">
+    </div>
+    <script>
+        function verify(){
+            var a=document.getElementById("uname").value;
+            var b=document.getElementById("upass").value;
+            if (a!="Gagan" && b=="Gagan123"){
+                alert("Username is not valid!");
+            }
+            else if(a=="Gagan" && b!="Gagan123"){
+                alert("Pasword is not valid");
+            }
+            
+            else if (a!="Gagan" &&  b!="Gagan123"){
+                alert("Username and Password are invalid!") 
+                
+            }
+            else{
+                alert("Verification successful!")
+            }
+        }
+    </script>
+    </body>
+</html>
