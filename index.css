@@ -1,10 +1,15 @@
 body{
-    background-color:#C7BCA1;
+    background-color:#FFFBE9;
 }
 .nav1{
     padding: 20px;
     background-color:#453C67;
+    border:2px double green;
+
+    
 }
+
+
 .usern{
     font-size:25px;
     
@@ -41,10 +46,15 @@ body{
     padding:10px 60px;
     border-radius: 7px;
     cursor:pointer;
-   
-.ver{
-    padding-left:50px;
-    text-align: center;
+ 
+}
+.case {
+    font-size: 28px;
+    padding-left:500px;
 
 }
+#tc{
+    background-color:#FAEAB1;
+    border: 3px solid black;
+    padding:7px 25px;
 }
